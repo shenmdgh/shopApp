@@ -7,7 +7,15 @@
       </swiper-item>
     </block>
   </swiper>
-
+  /*
+    1、swiper标签 autoplay属性 interval属性 duration属性
+    2、wx:for=语法
+    3、swiper-item标签 block标签
+  */
+  
+  
+  
+  
   <view class="index-nav">
     <block wx:for="{{navs}}">
       <view class="nav-item">
@@ -16,6 +24,17 @@
       </view>
     </block>
   </view>
+  
+  /*
+     1、更多的是view标签 image标签 text标签
+     2、获取数据使用两层花括号进行数据获取
+  */
+  
+  
+  
+  
+  
+  
 
   <view class="index-section">
     <view class="section-title">新品专区</view>
@@ -27,6 +46,14 @@
       </navigator>
     </view>
   </view>
+  /*
+    1、新品专区 加了一个新标签 navigator 主要属性url
+  */
+  
+  
+  
+  
+  
 
   <view class="index-section">
     <view class="section-title">热销专区</view>
@@ -38,4 +65,9 @@
       </navigator>
     </view>
   </view>  
+  /*
+    1、热销专区和新品专区一样 有navigator标签 （简单理解和h5中的a标签应该是同样的效果）
+  */
+  
+  
 </view>
