@@ -7,10 +7,29 @@
       </swiper-item>
     </block>
   </swiper>
+/*
+  1、使用swiper搭配swiper-item标签实现 商品详情图片轮播 挺简单的这种方式
+*/
+
+
+
+
+
+
   <view class="goods_msg">
     <text class="goods_name">{{goodsInfo.goods_name}}</text>
     <text class="goods_price">{{goodsInfo.goods_price}}</text>
   </view>
+  /*
+     1、view标签搭配text标签 显示商品名称和价格
+  */
+  
+  
+  
+  
+  
+  
+  
   <view class="tab">
     <view class="tab-item {{currentTab==0?'tab-active' : ''}}" data-current="0" bindtap="tab">商品详情</view>
     <view class="tab-item {{currentTab==1?'tab-active' : ''}}" data-current="1" bindtap="tab">参数</view>
